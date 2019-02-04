@@ -1,0 +1,152 @@
+body {
+	margin: 0 auto;
+	background: url(../images/bg.gif) repeat-x #F4F4F4;; 
+	font-family: Tahoma, Verdana, sans-serif; 
+	font-size: 11px; 
+}
+
+
+.font  {  font-family: Tahoma, Verdana, sans-serif;  font-size: 12px;  color: #666666;}
+.font a:link {	background-color: inherit;text-decoration: none;color: #666666;}
+.font a:visited { 	background-color: inherit;color: #666666; text-decoration: none;}
+.font a:active { color: #666666; background-color: inherit;text-decoration: underline;}
+.font a:hover { color: #5998A3; background-color: inherit;	text-decoration: underline;}
+
+.font_1  {  font-family: Tahoma, Verdana, sans-serif; font-size: 12px;  color: #09687C;  line-height: 1.2em; font-weight: bold;}
+.font_1  a:link {background-color: inherit; 	text-decoration: none;color: #09687C;}
+.font_1  a:visited { background-color: inherit;color: #09687C; text-decoration: none;	}
+.font_1  a:active { color: #09687C; background-color: inherit;text-decoration: underline;}
+.font_1  a:hover { color: #09687C; background-color: inherit;text-decoration: underline;}	
+
+.font_2  {  font-family: Tahoma, Verdana, sans-serif; font-size: 12px;  color: #FFFFFF;  line-height: 1.2em; font-weight: bold;}
+.font_2  a:link {background-color: inherit; 	text-decoration: none;color: #FFFFFF;}
+.font_2  a:visited { background-color: inherit;color: #FFFFFF; text-decoration: none;	}
+.font_2  a:active { color: #FFFFFF; background-color: inherit;text-decoration: underline;}
+.font_2  a:hover { color: #FFFFFF; background-color: inherit;text-decoration: underline;}	
+
+.font_3  {  font-family: Tahoma, Verdana, sans-serif; font-size: 12px;  color: #FF6600;  line-height: 1.2em; font-weight: bold;}
+.font_3  a:link {background-color: inherit; 	text-decoration: none;color: #FF6600;}
+.font_3  a:visited { background-color: inherit;color: #FF6600; text-decoration: none;	}
+.font_3  a:active { color: #FF6600; background-color: inherit;text-decoration: underline;}
+.font_3  a:hover { color: #FF6600; background-color: inherit;text-decoration: underline;}	
+
+.font1  {  font-family: Tahoma, Verdana, sans-serif; font-size: 11px;  color: #09687C;  line-height: 1.2em; font-weight: bold;}
+.font1  a:link {background-color: inherit; 	text-decoration: none;color: #09687C;}
+.font1  a:visited { background-color: inherit;color: #09687C; text-decoration: none;	}
+.font1  a:active { color: #09687C; background-color: inherit;text-decoration: underline;}
+.font1  a:hover { color: #09687C; background-color: inherit;text-decoration: underline;}
+	
+.font2 {   font-family: Tahoma, Verdana, sans-serif;  font-size: 11px;  color: #09687C;}
+.font2  a:link {background-color: inherit; 	text-decoration: none;color: #09687C;}
+.font2  a:visited { background-color: inherit;color: #09687C; text-decoration: none;	}
+.font2  a:active { color: #09687C; background-color: inherit;text-decoration: underline;}
+.font2  a:hover { color: #09687C; background-color: inherit;text-decoration: underline;}
+
+.font3 {  font-family: Tahoma, Verdana, sans-serif;  font-size: 11px; 	 color: #0C9EFF;}
+.font3 a:link {	background-color: inherit; 		text-decoration: none;	color: #0C9EFF;	}
+.font3 a:visited { 	background-color: inherit;	color: #0C9EFF; 	text-decoration: none;	}
+.font3a:active { 	color: #0C9EFF; 	background-color: inherit;	text-decoration: underline;	}
+.font3 a:hover { 	color: #0C9EFF; background-color: inherit;text-decoration: underline;	}
+
+.font4  {    font-family: Tahoma, Verdana, sans-serif;  font-size: 12px;  color: #CC0000; line-height: 1.2em;}
+.font4 a:link {background-color: inherit; 	text-decoration: none;color: #CC0000;	}
+.font4 a:visited { background-color: inherit;color: #CC0000; text-decoration: none;}
+.font4 a:active { color: #CC0000; background-color: inherit;text-decoration: underline;	}
+.font4 a:hover { 	color: #CC0000; background-color: inherit;text-decoration: underline;	}
+
+.font5  {    font-family: Tahoma, Verdana, sans-serif; 	 font-size: 13px;  color: #666666;	line-height: 1.2em;	 font-weight:bold;	}
+
+
+.font6  {  font-family: Tahoma, Verdana, sans-serif;  font-size: 11px;  color: #666666; line-height: 1.5em;}
+.font6 a:link {background-color: inherit; 	text-decoration: none;color: #666666;	}
+.font6 a:visited { background-color: inherit;color: #666666; text-decoration: none;	}
+.font6 a:active { color: #666666; background-color: inherit;text-decoration: underline;	}
+.font6 a:hover { color: #FF6600; background-color: inherit;text-decoration: underline;	}
+
+.font7  {  font-family: Tahoma, Verdana, sans-serif;  font-size: 11px;  color: #000000; line-height: 1.5em;}
+.font7 a:link {background-color: inherit; 	text-decoration: none;color: #000000;	}
+.font7 a:visited { background-color: inherit;color: #000000; text-decoration: none;	}
+.font7 a:active { color: #000000; background-color: inherit;text-decoration: underline;	}
+.font7 a:hover { color: #000000; background-color: inherit;text-decoration: underline;	}
+
+.font_table  {    font-family: Tahoma, Verdana, sans-serif; 	 font-size: 12px;  color: #FFFFFF;	 font-weight:bold;	}
+	
+.inputBox {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #00365A;
+	text-decoration: none;
+	border: 1px solid #999999;
+	height:20px; 
+	width:148px;
+	
+}
+.inputBox1 {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+	border: 1px solid #999999;
+	height:20px; 
+	width:180px;
+	
+}
+.inputBox1_mul {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+	border: 1px solid #999999;
+	
+	width:180px;
+	
+}
+.inputBox2 {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #999999;
+	text-decoration: none;
+	border: 1px solid #999999;
+	height:20px; 
+	width:272px;
+	
+}
+.inputBox3 {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #999999;
+	text-decoration: none;
+	border: 1px solid #999999;
+	width:272px;
+	
+}
+.box {border:1px solid #DEEAE6;padding:0px;}
+.box a { background-color:#FFFFFF;display:block; border:1px solid #DEEAE6;}
+.box a:hover {border:1px solid #09687C;}
+
+.box2 {border:1px solid #999999;width:76px;height:58px;padding:0px;}
+.box2 a { background-color:#999999;display:block; border:1px solid #999999;}
+.box2 a:hover {border:1px solid #ffffff;}
+
+.inputButton1 {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #FFFFFF;
+	font-weight:bold;
+	text-decoration: none;
+	background-color:#38707C;
+	border: 1px solid #09687C;
+	width:65px;
+	height:20px;
+	
+}
+
+.inputButton2 {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+	width:140px;
+	height:20px;
+	
+}

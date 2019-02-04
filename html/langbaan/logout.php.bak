@@ -1,0 +1,13 @@
+<?
+if ($HTTP_GET_VARS[logout] == "true") {
+include ('./loggedin.inc.php');
+session_name("USER");
+		session_start();
+		session_unregister("USER_LOGIN");
+		session_unregister("USER_NAME");
+echo "<html>\n";
+echo "<header>\n<META HTTP-EQUIV=\"Refresh\" CONTENT=\"1; url=index.php\" target=\"_top\">\n</header>\n\n";
+	echo "<body>\n <font face=\"Arial, Helvetica, sans-serif\" size=\"2\">Signing out . . .";
+	echo "\n</font></body>\n</html>";  
+}
+?>

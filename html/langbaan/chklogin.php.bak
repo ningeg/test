@@ -1,0 +1,24 @@
+<?
+session_name("USER");
+ session_start();
+include("../DBEngine_onhost.php");
+$Dbs=ConnectDB();
+if($HTTP_POST_VARS[Submits]){
+$selectuser = "select * from staff where username = '$HTTP_POST_VARS[username]' and password = '$HTTP_POST_VARS[passwords]'";
+$rsselect = DBexec($Dbs,$selectuser);
+$rows = DBNumrows($rsselect);
+if($rows  <> "0"){
+	$wr = DBfetch_array($rsselect,0);
+$USER_LOGIN = $wr[staff_id];
+$USER_NAME = $wr[username];
+session_name("USER");
+session_register("USER_LOGIN","USER_NAME");
+$update="update staff set  lastlogin='".date("YmdHis")."'  where staff_id='$USER_LOGIN'";
+DBexec($Dbs,$update);
+Header("Location:main.php");
+}else{
+echo "<html><body><script language=javascript1.1>alert('ชื่อหรือพาสเวิร์ดนี้ไม่มีในระบบค่ะ กรุณาตรวจสอบอีกครั้ง'); window.location='index.php';</script><noscript>Your browser doesn't support JavaScript 1.1 or it's turned off in your browsers preferences.</noscript></body></html>";
+		exit;
+}
+}
+?>
